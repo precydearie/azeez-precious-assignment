@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title>
+    FORM    
+</title> 
+<style>
+
+.body
+{
+    background-color: lightgoldenrodyellow; 
+    display: flex; 
+    justify-content: center;
+}
+.input{
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px; 
+    background-color: lightgrey;
+
+}
+.fieldset{
+    margin-top:120px;
+    padding-bottom: 50px; 
+    padding-top: 30px;
+     padding-left: 20px;
+     border-radius: 20px;
+     background-color: oldlace;
+
+}
+.button{
+    color: white;
+     background-color: blue; 
+     border-radius: 25px; 
+     padding: 17px; 
+     border: none; 
+    margin-top: 5px;
+    font-size: 15px;
+}
+.margin{
+    margin: 10px;
+}
+</style>
+    </head>
+
+
+<body class="body"> 
+    <fieldset class="fieldset">
+    <p>
+        <h3>
+            REGISTRATION FORM
+        </h3>
+    </p>
+    <div>
+        <form action="submission-page.html" method="get" target="_blank">
+
+            <div class="name" class="margin">
+                <label for="name">Name:</label>	
+                <input type="text" class="input"  placeholder="Name" required>
+                </div>
+
+                <div class="margin">
+               <label for="password"> Password: </label> 
+                 <input type="password"  class="input"  placeholder="Password" name="" required>
+                 </div>
+    
+            <div class="margin">
+                  <label for="gender">Gender:</label>  
+                    <select class="input" >
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+                </div>
+                
+            <div class="margin">
+                    <label for="email"> Email address:</label>
+                    <input type="Email" class="input"  placeholder="azeez@gmail.com"name="" required>                    
+                </div>
+                    
+            <div class="margin">
+                   <label for="phonennumber"> Phone number: </label> 
+                     <select class="input" >
+                         <option>+234</option>
+                         <option>+123</option>
+                         <option>+456</option>
+                         <option>+453</option>
+                         <option>+121</option>
+                         <option>+897</option>   
+                     </select>
+                         <input type="Phone number" class="input"  placeholder="080199*****" name="" required>
+                </div>
+                         
+                        <div>
+        
+                            <input type="submit"  value="SUBMIT" name="" class="button"> 
+                    
+                        </div>
+                       
+                    </form> 
+                </fieldset>      
+    </div>
+                 
+                                    
+</body>
+</html>
